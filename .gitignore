@@ -1,0 +1,24 @@
+# Dependências
+node_modules/
+
+# Build do front-end
+client/dist/
+
+# Banco de dados e backups (dados reais da loja — nunca versionar)
+data/
+backups/
+*.db
+*.db-wal
+*.db-shm
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Logs e arquivos do sistema/editor
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
